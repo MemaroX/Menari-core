@@ -10,3 +10,6 @@
 [submodule "attention_mechanism"]
 	path = attention_mechanism
 	url = E:\\Mema-Lab\\Menari\\Menari-core\\attention_mechanism
+[submodule "feed_forward_networks"]
+	path = feed_forward_networks
+	url = E:\\Mema-Lab\\Menari\\Menari-core\\feed_forward_networks
