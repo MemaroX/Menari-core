@@ -7,3 +7,6 @@
 [submodule "positional_encoding"]
 	path = positional_encoding
 	url = E:\\Mema-Lab\\Menari\\Menari-core\\positional_encoding
+[submodule "attention_mechanism"]
+	path = attention_mechanism
+	url = E:\\Mema-Lab\\Menari\\Menari-core\\attention_mechanism
