@@ -13,3 +13,6 @@
 [submodule "feed_forward_networks"]
 	path = feed_forward_networks
 	url = E:\\Mema-Lab\\Menari\\Menari-core\\feed_forward_networks
+[submodule "layer_norm_residual_connections"]
+	path = layer_norm_residual_connections
+	url = E:\\Mema-Lab\\Menari\\Menari-core\\layer_norm_residual_connections
