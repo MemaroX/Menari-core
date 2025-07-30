@@ -1,6 +1,6 @@
 [submodule "tokenization"]
 	path = tokenization
-	url = E:\\Mema-Lab\\Menari\\Menari-core\\tokenization
+	url = https://github.com/MemaroX/tokenization.git
 [submodule "embedding_layer"]
 	path = embedding_layer
-	url = E:\\Mema-Lab\\Menari\\Menari-core\\embedding_layer
+	url = https://github.com/MemaroX/embedding_layer.git
