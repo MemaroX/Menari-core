@@ -25,3 +25,6 @@
 [submodule "training_loop"]
 	path = training_loop
 	url = E:\\Mema-Lab\\Menari\\Menari-core\\training_loop
+[submodule "text_generation"]
+	path = text_generation
+	url = E:\\Mema-Lab\\Menari\\Menari-core\\text_generation
