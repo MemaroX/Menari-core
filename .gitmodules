@@ -4,3 +4,6 @@
 [submodule "embedding_layer"]
 	path = embedding_layer
 	url = https://github.com/MemaroX/embedding_layer.git
+[submodule "positional_encoding"]
+	path = positional_encoding
+	url = E:\\Mema-Lab\\Menari\\Menari-core\\positional_encoding
