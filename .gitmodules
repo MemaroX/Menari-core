@@ -22,3 +22,6 @@
 [submodule "decoder_only_architecture"]
 	path = decoder_only_architecture
 	url = E:\\Mema-Lab\\Menari\\Menari-core\\decoder_only_architecture
+[submodule "training_loop"]
+	path = training_loop
+	url = E:\\Mema-Lab\\Menari\\Menari-core\\training_loop
