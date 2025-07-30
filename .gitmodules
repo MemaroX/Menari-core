@@ -19,3 +19,6 @@
 [submodule "transformer_block"]
 	path = transformer_block
 	url = E:\\Mema-Lab\\Menari\\Menari-core\\transformer_block
+[submodule "decoder_only_architecture"]
+	path = decoder_only_architecture
+	url = E:\\Mema-Lab\\Menari\\Menari-core\\decoder_only_architecture
