@@ -28,3 +28,6 @@
 [submodule "text_generation"]
 	path = text_generation
 	url = E:\\Mema-Lab\\Menari\\Menari-core\\text_generation
+[submodule "small_language_model"]
+	path = small_language_model
+	url = E:\\Mema-Lab\\Menari\\Menari-core\\small_language_model
