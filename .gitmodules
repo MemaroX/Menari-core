@@ -1,3 +1,6 @@
 [submodule "tokenization"]
 	path = tokenization
 	url = E:\\Mema-Lab\\Menari\\Menari-core\\tokenization
+[submodule "embedding_layer"]
+	path = embedding_layer
+	url = E:\\Mema-Lab\\Menari\\Menari-core\\embedding_layer
