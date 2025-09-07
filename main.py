@@ -70,11 +70,13 @@ if __name__ == "__main__":
     NUM_LAYERS = 2
     MAX_SEQ_LEN = 128
     DROPOUT_RATE = 0.1 # New hyperparameter for regularization
-    EPOCHS = 10
+    EPOCHS = 16
     LEARNING_RATE = 0.001 # Adjusted for Adam
+    LR_DECAY_FACTOR = 0.9 # Factor to decay learning rate by
+    LR_STEP_SIZE = 3 # Decay learning rate every N epochs
 
     # --- Training Data ---
-    with open("pride_and_prejudice.txt", "r", encoding="utf-8") as f:
+    with open("pride_and_prejudice_clean_ready (1).txt", "r", encoding="utf-8") as f:
         training_text = f.read()
     
     # --- Tokenization ---
@@ -143,12 +145,18 @@ if __name__ == "__main__":
         avg_loss = total_loss / data_loader.num_batches
         print(f"Epoch {epoch+1}/{EPOCHS} | Average Loss: {avg_loss:.4f}")
 
+        # --- Learning Rate Scheduling ---
+        if (epoch + 1) % LR_STEP_SIZE == 0:
+            for param_group in optimizer.param_groups:
+                param_group['lr'] *= LR_DECAY_FACTOR
+            print(f"Learning rate decayed to {optimizer.param_groups[0]['lr']:.6f}")
+
     print("\n--- Training Complete ---")
 
     # --- Text Generation ---
     print("\n--- Step 4: Generating Text ---")
     start_token_id = tokenizer.word_to_id['the']
-    generated_output = greedy_decode(model, start_token_id, max_length=10, tokenizer=tokenizer, device=device)
+    generated_output = greedy_decode(model, start_token_id, max_length=15, tokenizer=tokenizer, device=device)
     
     
 

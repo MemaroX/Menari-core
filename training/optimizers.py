@@ -11,3 +11,7 @@ class Adam:
 
     def zero_grad(self):
         self.optimizer.zero_grad()
+
+    @property
+    def param_groups(self):
+        return self.optimizer.param_groups
