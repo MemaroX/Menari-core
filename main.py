@@ -76,7 +76,7 @@ if __name__ == "__main__":
     LR_STEP_SIZE = 3 # Decay learning rate every N epochs
 
     # --- Training Data ---
-    with open("pride_and_prejudice_clean_ready (1).txt", "r", encoding="utf-8") as f:
+    with open("E:\\Mema-Lab\\Menari\\Menari-core\\pride_and_prejudice_clean_ready (1).txt", "r", encoding="utf-8") as f:
         training_text = f.read()
     
     # --- Tokenization ---
